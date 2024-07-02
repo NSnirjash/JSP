@@ -2,7 +2,7 @@
 package model;
 
 public class Student {
-    private int stu_id;
+    private int id;
     private String name;
     private String email;
     private String address;
@@ -11,27 +11,20 @@ public class Student {
     public Student() {
     }
 
-    public Student(int stu_id, String name, String email, String address, String cell_no) {
-        this.stu_id = stu_id;
+    public Student(int id, String name, String email, String address, String cell_no) {
+        this.id = id;
         this.name = name;
         this.email = email;
         this.address = address;
         this.cell_no = cell_no;
     }
 
-    public Student(String name, String email, String address, String cell_no) {
-        this.name = name;
-        this.email = email;
-        this.address = address;
-        this.cell_no = cell_no;
+    public int getId() {
+        return id;
     }
 
-    public int getStu_id() {
-        return stu_id;
-    }
-
-    public void setStu_id(int stu_id) {
-        this.stu_id = stu_id;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -65,8 +58,6 @@ public class Student {
     public void setCell_no(String cell_no) {
         this.cell_no = cell_no;
     }
-
-    
 
     
     

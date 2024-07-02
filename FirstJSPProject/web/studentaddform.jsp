@@ -1,8 +1,3 @@
-<%-- 
-    Document   : studentaddform
-    Created on : Jul 2, 2024, 12:43:47 PM
-    Author     : User
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -16,7 +11,7 @@
         
         <form action="savestudent.jsp" method="post">
             Name: <input type="text" name="name"> <br>
-            Email: <input type="email" name="email:"> <br>
+            Email: <input type="email" name="email"> <br>
             Address <input type="text" name="address"> <br>
             Cell <input type="text" name="cell_no"> <br>
             
