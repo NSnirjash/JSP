@@ -12,8 +12,10 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <%= new java.util.Date() %>
-        <a href="studentaddform.jsp">Add Student</a>
+        
+        <a href="studentaddform.jsp">Add Student</a> <br>
+        <a href="viewallstudent.jsp">View All Student</a>
+        
         
     </body>
 </html>
