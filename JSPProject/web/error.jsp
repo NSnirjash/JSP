@@ -1,6 +1,6 @@
 <%-- 
-    Document   : home
-    Created on : Jul 3, 2024, 1:29:37 PM
+    Document   : error
+    Created on : Jul 4, 2024, 1:04:25 PM
     Author     : User
 --%>
 
@@ -12,9 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Welcome!</h1>
-        <a href="employeeaddform.jsp">Add Employee</a>  <br>
-        <a href="#">Show Employee List</a>
-        
+        <h1 style="color: red">Data Save Unsuccessfully</h1>
+        <%@include file="employeeaddform.jsp" %>
     </body>
 </html>
