@@ -1,8 +1,3 @@
-<%-- 
-    Document   : home
-    Created on : Jul 3, 2024, 1:29:37 PM
-    Author     : User
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -12,9 +7,12 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Welcome!</h1>
-        <a href="employeeaddform.jsp">Add Employee</a>  <br>
-        <a href="#">Show Employee List</a>
-        
+        <ul>
+            <li>
+                <a href="studentaddform.jsp">Add Student</a> <br>
+                <a href="viewallstudent.jsp">View All Student</a>
+
+            </li>
+        </ul>
     </body>
 </html>
