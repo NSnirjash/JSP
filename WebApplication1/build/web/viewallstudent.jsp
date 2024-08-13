@@ -39,8 +39,8 @@ rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bR
                 <td>${s.getGender()}</td>
                 <td>${s.getSubject()}</td>
                 <td>
-                    <a href="updatestudentform.jsp?id=${s.getId()}">Edit</a>
-                    <a href="deletestudent.jsp?id=${s.getId()}">Delete</a>
+                    <a class="btn btn-warning" href="updatestudentform.jsp?id=${s.getId()}">Edit</a>
+                    <a class="btn btn-danger" href="deletestudent.jsp?id=${s.getId()}">Delete</a>
                 </td>
             </tr>
 
